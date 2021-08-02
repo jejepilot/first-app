@@ -1,0 +1,30 @@
+{
+  "name": "first-app",
+  "version": "0.1.0",
+  "description": "projeto de am2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jejepilot/first-app.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "app",
+    "user",
+    "managing"
+  ],
+  "author": "Jeremias Oliveira M. Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jejepilot/first-app/issues"
+  },
+  "homepage": "https://github.com/jejepilot/first-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "Faker": "^0.7.2"
+  }
+}
