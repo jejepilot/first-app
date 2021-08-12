@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-
+const app = express();
 // const faker = require("faker");
 
 // let db = require("./db");
@@ -12,7 +12,6 @@ const router = express.Router();
 //Para serem alcançados os arquivos e pastas que estão dentro dele. 
 //Por isso na imagem que está na página home.ejs só há o indicativo para 'images'
 router.use(express.static('public'));
-
 
 
 //************* Exemplode Rotas ************* 

@@ -31,11 +31,12 @@ global.users =[
 app.set('view engine','ejs');
 app.use(expressLayouts);
 
+app.use('/',routes);
+
 app.use(express.urlencoded({extended:false})); //prepara a aplicacao para receber dados na forma de query string
 app.use(express.json()); //prepara a aplicacao para receber dados no formato JSON
 
 //Criando usando rotas simples que estão no arquivo routes.js
-app.use('/',routes);
 
 //Criando um servidor simples com o Node.js e o Express
 
